@@ -4,13 +4,14 @@
 --D-4-Scholar: #F4F3EA; */
 
 body {
+    margin: 0;
+    box-sizing: border-box;
     background-color: var(--A-4-Scholar);
     font-family: var(--Cairo);
 }
 
 main {
     position: relative;
-    height: 100vh;
     width: 100vw;
 }
 
@@ -96,18 +97,84 @@ nav {
     }
 }
 
-footer {
-    height: 6vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/* packages */
+
+ul {
+    list-style: none;
 }
 
-footer h1 {
-    color: var(--C-4-Scholar);
-    font-size: 1.3rem;
-}
-
-.fas {
+.pack_title {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 3rem;
     color: var(--B-4-Scholar);
+}
+
+.packages {
+    margin: 2rem 0 2rem;
+    position: relative;
+    float: right;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.packages div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    background-color: var(--C-4-Scholar);
+    padding: 2rem;
+    height: 500px;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.4);
+    transition: background .5s linear;
+    -webkit-transition: background .5s linear;
+    -moz-transition: background .5s linear;
+    -ms-transition: background .5s linear;
+    -o-transition: background .5s linear;
+}
+
+.packages div ul {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.packages div ul li {
+    padding: 1rem;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.packages div:hover {
+    background-color: var(--D-4-Scholar);
+}
+
+.title {
+    color: var(--B-4-Scholar);
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px rgba(0, 0, 0, .8);
+}
+
+.price {
+    margin-top: 1rem;
+    font-size: 3rem;
+    /* background-color: var(--B-4-Scholar); */
+    font-weight: bold;
+    padding: 1rem;
+    text-shadow: 2px 2px var(--B-4-Scholar);
+
 }
