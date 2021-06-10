@@ -1,7 +1,11 @@
-/* --A-4-Scholar: #333D51;
---B-4-Scholar: #D3AC2B;
---C-4-Scholar: #CBD0D8;
---D-4-Scholar: #F4F3EA; */
+/**/
+
+:root {
+    --A-4-Scholar: #333D51;
+    --B-4-Scholar: #D3AC2B;
+    --C-4-Scholar: #CBD0D8;
+    --D-4-Scholar: #F4F3EA;
+}
 
 body {
     margin: 0;
@@ -176,5 +180,4 @@ ul {
     font-weight: bold;
     padding: 1rem;
     text-shadow: 2px 2px var(--B-4-Scholar);
-
 }
