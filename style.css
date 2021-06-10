@@ -1,5 +1,4 @@
-/**/
-
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap');
 :root {
     --A-4-Scholar: #333D51;
     --B-4-Scholar: #D3AC2B;
@@ -11,7 +10,7 @@ body {
     margin: 0;
     box-sizing: border-box;
     background-color: var(--A-4-Scholar);
-    font-family: var(--Cairo);
+    font-family: 'Cairo', sans-serif;
 }
 
 main {
